@@ -1,4 +1,5 @@
 🚀 DevOps CI/CD Project – Brain Tasks App (EKS Deployment)
+
 📌 Project Overview
 
 This project demonstrates a complete CI/CD pipeline for deploying a React-based static application using:
@@ -56,8 +57,6 @@ AWS LoadBalancer (Public Access)
   - JavaScript
   - Assets
 
-> No build tools required (production-ready output)
-
 ---
 
 ## 📌 3. Docker Containerization
@@ -66,11 +65,15 @@ AWS LoadBalancer (Public Access)
 - Copied `dist/` files into Nginx web directory
 - Exposed application on port 80
 
+---
+
 ## 📌 4. Amazon ECR (Docker Image Registry)
 
 - Created ECR repository in AWS
 - Tagged Docker image
 - Pushed image to ECR
+
+---
 
 ## 📌 5. AWS CodeBuild (CI Automation)
 
@@ -81,11 +84,15 @@ AWS LoadBalancer (Public Access)
 - Docker image build
 - Push image to Amazon ECR
 
+---
+
 ## 📌 6. Amazon EKS (Kubernetes Cluster)
 
 - Created EKS cluster using eksctl
 - Configured kubectl access from EC2
 - Verified worker nodes are active
+
+---
 
 ## 📌 7. Kubernetes Deployment
 
@@ -93,15 +100,21 @@ AWS LoadBalancer (Public Access)
 - deployment.yaml
 - service.yaml
 
+---
+
 ## 📌 8. Application Exposure (LoadBalancer)
 - Service type: LoadBalancer
 - AWS automatically creates public endpoint
 - Application accessible via external URL
 - http://<LoadBalancer-DNS>
 
+---
+
 ## 📌 9. CI/CD Pipeline Flow
 
 GitHub → AWS CodeBuild → Amazon ECR → Amazon EKS → LoadBalancer → Browser
+
+---
 
 <img width="1117" height="737" alt="d1" src="https://github.com/user-attachments/assets/cfa78fd8-e501-40c1-bff8-453d51d4ca3b" />
 
