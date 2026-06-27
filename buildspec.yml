@@ -17,8 +17,6 @@ phases:
     commands:
       - echo Pushing Docker image...
       - docker push $REPOSITORY_URI:$IMAGE_TAG
-      - echo Writing deployment file...
-      - kubectl set image deployment/brain-app brain-app=$REPOSITORY_URI:$IMAGE_TAG
 
 artifacts:
   files:
