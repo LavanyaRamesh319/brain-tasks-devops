@@ -13,68 +13,104 @@ The application is containerized using Docker and deployed on Kubernetes running
 
 **Architecture Flow**
 GitHub
+
    ↓
+   
 AWS CodeBuild
+
    ↓
+   
 Docker Image Build
+
    ↓
+   
 Amazon ECR (Image Storage)
+
    ↓
+   
 Amazon EKS (Kubernetes Deployment)
+
    ↓
+   
 AWS LoadBalancer (Public Access)
 
-📌 1. Source Code Management (GitHub)
 
-Created a GitHub repository for version control
-Cloned the repository to EC2 workstation
-Managed application files in Git
-Pushed final codebase to GitHub
+---
 
-📌 2. Application Build (Static React App)
-The application is already pre-built inside dist/
-Contains:
-HTML
-CSS
-JavaScript
-Assets
+## 📌 1. Source Code Management (GitHub)
 
-📌 3. Docker Containerization
-Created Dockerfile using Nginx base image
-Copied dist/ files into Nginx web directory
-Exposed application on port 80
-👉 No build tools required (production-ready build)
+- Created a GitHub repository for version control
+- Cloned the repository to EC2 workstation
+- Managed application files using Git
+- Pushed final codebase to GitHub
 
-📌 4. Amazon ECR (Docker Image Registry)
-Created ECR repository in AWS
-Tagged Docker image
-Pushed image to ECR for storage
+---
 
-📌 5. AWS CodeBuild (CI Automation)
-Connected GitHub repository to AWS CodeBuild
-Used buildspec.yml for automation
-CodeBuild performs:
-Source download from GitHub
-Docker image build
-Push image to ECR
+## 📌 2. Application Build (Static React App)
 
-📌 6. Amazon EKS (Kubernetes Cluster)
+- The application is already pre-built inside `dist/` folder
+- Contains:
+  - HTML
+  - CSS
+  - JavaScript
+  - Assets
+
+> No build tools required (production-ready output)
+
+---
+
+## 📌 3. Docker Containerization
+
+- Created Dockerfile using **Nginx base image**
+- Copied `dist/` files into Nginx web directory
+- Exposed application on port 80
+
+## 📌 4. Amazon ECR (Docker Image Registry)
+
+- Created ECR repository in AWS
+- Tagged Docker image
+- Pushed image to ECR
+
+## 📌 5. AWS CodeBuild (CI Automation)
+
+- Connected GitHub repository to AWS CodeBuild
+- Used buildspec.yml for automation
+- CodeBuild performs:
+- Source download from GitHub
+- Docker image build
+- Push image to Amazon ECR
+
+## 📌 6. Amazon EKS (Kubernetes Cluster)
 Created EKS cluster using eksctl
 Configured kubectl access from EC2
 Verified worker nodes are active
 
-📌 7. Kubernetes Deployment
-Created Kubernetes manifests:
-deployment.yaml
-service.yaml
+## 📌 7. Kubernetes Deployment
 
-📌 8. Application Exposure (LoadBalancer)
-Service type: LoadBalancer
-AWS automatically creates public endpoint
-Application accessible via external URL
+- Created Kubernetes manifests:
+- deployment.yaml
+- service.yaml
 
-📌 9. CI/CD Pipeline Flow
-GitHub → AWS CodeBuild → Amazon ECR → Amazon EKS → LoadBalancer → Browser
+## 📌 8. Application Exposure (LoadBalancer)
+- Service type: LoadBalancer
+- AWS automatically creates public endpoint
+- Application accessible via external URL
+- http://<LoadBalancer-DNS>
+
+## 📌 9. CI/CD Pipeline Flow
+
+GitHub
+   ↓
+AWS CodeBuild
+   ↓
+Amazon ECR
+   ↓
+Amazon EKS
+   ↓
+LoadBalancer
+   ↓
+Browser
+
 
 <img width="1117" height="737" alt="d1" src="https://github.com/user-attachments/assets/cfa78fd8-e501-40c1-bff8-453d51d4ca3b" />
 
