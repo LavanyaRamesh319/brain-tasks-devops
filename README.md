@@ -101,8 +101,7 @@ AWS LoadBalancer (Public Access)
 
 ## 📌 9. CI/CD Pipeline Flow
 
-GitHub --> AWS CodeBuild --> Amazon ECR --> Amazon EKS --> LoadBalancer --> Browser
-
+GitHub → AWS CodeBuild → Amazon ECR → Amazon EKS → LoadBalancer → Browser
 
 <img width="1117" height="737" alt="d1" src="https://github.com/user-attachments/assets/cfa78fd8-e501-40c1-bff8-453d51d4ca3b" />
 
