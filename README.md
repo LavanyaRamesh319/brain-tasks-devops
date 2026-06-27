@@ -82,9 +82,10 @@ AWS LoadBalancer (Public Access)
 - Push image to Amazon ECR
 
 ## 📌 6. Amazon EKS (Kubernetes Cluster)
-Created EKS cluster using eksctl
-Configured kubectl access from EC2
-Verified worker nodes are active
+
+- Created EKS cluster using eksctl
+- Configured kubectl access from EC2
+- Verified worker nodes are active
 
 ## 📌 7. Kubernetes Deployment
 
@@ -100,17 +101,7 @@ Verified worker nodes are active
 
 ## 📌 9. CI/CD Pipeline Flow
 
-GitHub
-   ↓
-AWS CodeBuild
-   ↓
-Amazon ECR
-   ↓
-Amazon EKS
-   ↓
-LoadBalancer
-   ↓
-Browser
+GitHub --> AWS CodeBuild --> Amazon ECR --> Amazon EKS --> LoadBalancer --> Browser
 
 
 <img width="1117" height="737" alt="d1" src="https://github.com/user-attachments/assets/cfa78fd8-e501-40c1-bff8-453d51d4ca3b" />
