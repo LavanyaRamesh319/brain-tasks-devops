@@ -1,91 +1,77 @@
-DevOps Practice Project – Dist Directory
+🚀 DevOps CI/CD Project – Brain Tasks App (EKS Deployment)
+📌 Project Overview
 
-This repository contains the production-ready build files (dist folder) for DevOps practice and deployment exercises.
+This project demonstrates a complete CI/CD pipeline for deploying a React-based static application using:
 
-It is intentionally structured to help learners focus on CI/CD pipelines, hosting, containerization, and infrastructure setup rather than application development.
+GitHub (Source Control)
+AWS CodeBuild (CI - Build stage)
+Amazon ECR (Docker Image Registry)
+Amazon EKS (Kubernetes Cluster)
+AWS LoadBalancer (Application Exposure)
 
-📁 What This Repository Contains
+The application is containerized using Docker and deployed on Kubernetes running on AWS EKS.
 
-dist/ – Compiled and production-ready static files
+**Architecture Flow**
+GitHub
+   ↓
+AWS CodeBuild
+   ↓
+Docker Image Build
+   ↓
+Amazon ECR (Image Storage)
+   ↓
+Amazon EKS (Kubernetes Deployment)
+   ↓
+AWS LoadBalancer (Public Access)
 
-HTML
+<img width="1117" height="737" alt="d1" src="https://github.com/user-attachments/assets/cfa78fd8-e501-40c1-bff8-453d51d4ca3b" />
 
-CSS
+<img width="1882" height="857" alt="d2" src="https://github.com/user-attachments/assets/330ef59b-8405-4ce1-af75-97e6d0a1776e" />
 
-JavaScript
+<img width="1917" height="785" alt="d3" src="https://github.com/user-attachments/assets/0fa6dff0-2e65-4b95-9ed9-6ed63e47dae5" />
 
-Assets (images, fonts, etc.)
+<img width="1902" height="887" alt="d4" src="https://github.com/user-attachments/assets/66b88f90-3835-418a-b604-664fbc2ecb0b" />
 
-These files are ready to deploy to:
+<img width="1890" height="691" alt="d5" src="https://github.com/user-attachments/assets/f77643ce-a75e-4d41-9ace-34340ac71bc6" />
 
-Web servers (Nginx / Apache)
+<img width="1102" height="677" alt="d6" src="https://github.com/user-attachments/assets/f58f5040-6f2b-40fa-9d3e-a3b9e4060520" />
 
-Cloud platforms (AWS S3, Azure Blob, GCP Storage)
+<img width="1895" height="862" alt="d7" src="https://github.com/user-attachments/assets/4939ee08-0d72-48a1-a31d-180a8edf4b02" />
 
-Containerized environments (Docker + Nginx)
+<img width="736" height="472" alt="d8" src="https://github.com/user-attachments/assets/436df79c-655e-4fcf-936f-57c9279b079b" />
 
-Kubernetes clusters
+<img width="1880" height="932" alt="d9" src="https://github.com/user-attachments/assets/88a6dbc0-684d-4c2d-9ac9-f54b2175ade1" />
 
-CI/CD pipeline demonstrations
+<img width="1857" height="592" alt="d10" src="https://github.com/user-attachments/assets/dca1d422-0167-4230-af54-9e1bdcc0748e" />
 
-🎯 Purpose of This Repository
+<img width="1866" height="890" alt="d11" src="https://github.com/user-attachments/assets/8bc847ab-a32c-4e58-ae43-2be7953c7627" />
 
-This repository is designed for:
+<img width="1170" height="682" alt="d12" src="https://github.com/user-attachments/assets/794691b6-92bd-42d3-83c0-202f4e7320bc" />
 
-DevOps beginners
+<img width="1902" height="516" alt="d13" src="https://github.com/user-attachments/assets/5cfdddc2-ea03-4f97-9d86-c023659a32bd" />
 
-CI/CD practice
+<img width="1867" height="657" alt="d14" src="https://github.com/user-attachments/assets/d70a5a9b-8129-40a6-842f-959b03603a9c" />
 
-Deployment pipeline testing
+<img width="1912" height="605" alt="d15" src="https://github.com/user-attachments/assets/f7c70781-34c2-4130-a322-b4f6ec3139fb" />
 
-Docker & Kubernetes deployment exercises
+<img width="1867" height="860" alt="d16" src="https://github.com/user-attachments/assets/33e9374a-851c-48ea-8f50-3fb16ff1a94f" />
 
-Web server configuration practice
+<img width="1546" height="650" alt="d17" src="https://github.com/user-attachments/assets/223d7f06-cecd-4aae-898b-16b0940a4b4b" />
 
-Reverse proxy and load balancer setup
+<img width="1907" height="532" alt="d18" src="https://github.com/user-attachments/assets/3b71fa2f-18b1-4344-b305-71066835722b" />
 
-The goal is to simulate real-world deployment scenarios using already built application files.
+<img width="1847" height="651" alt="d19" src="https://github.com/user-attachments/assets/4033e0ff-8cab-4221-898d-8d07aebc60b3" />
 
-❓ Why is there NO package.json?
+<img width="1887" height="836" alt="d20" src="https://github.com/user-attachments/assets/c9cef3b4-128c-4787-96ab-bd9fdd86490e" />
 
-You may notice that this repository does not include:
+<img width="1620" height="791" alt="d21" src="https://github.com/user-attachments/assets/54b31c80-8b17-49f4-ab2c-6e628bc09956" />
 
-package.json
+<img width="1907" height="787" alt="d22" src="https://github.com/user-attachments/assets/078cabb2-1ebc-4323-8c40-df9c25aed73d" />
 
-node_modules
+<img width="1887" height="757" alt="d23" src="https://github.com/user-attachments/assets/64d0eb80-8a64-42cd-8b1c-07a1593da462" />
 
-Source code (src/)
+<img width="1877" height="607" alt="d24" src="https://github.com/user-attachments/assets/f0ea742d-2c3e-49d6-8351-8af82de93b4f" />
 
-Build tools configuration
+<img width="1901" height="820" alt="d25" src="https://github.com/user-attachments/assets/c4056077-5beb-4baa-9006-a5bffbe45f60" />
 
-✅ Reason:
-
-This repository only contains the final production build output (dist), not the development source code.
-
-In a typical project:
-
-Developers write source code.
-
-The project is built using tools like:
-
-Node.js
-
-Webpack
-
-Vite
-
-React (or other frameworks)
-
-A dist/ folder is generated.
-
-Only the production build is deployed to servers.
-
-This repository represents step 4 only.
-
-Since this is already the compiled output:
-
-No dependencies are required
-
-No build process is required
-
-No package.json is needed
+<img width="1822" height="932" alt="d26" src="https://github.com/user-attachments/assets/815537dc-ade0-40f1-a282-847c6ea8836b" />
