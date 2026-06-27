@@ -24,7 +24,8 @@ Amazon EKS (Kubernetes Deployment)
    ↓
 AWS LoadBalancer (Public Access)
 
-1. Source Code Management (GitHub)
+📌 1. Source Code Management (GitHub)
+
 Created a GitHub repository for version control
 Cloned the repository to EC2 workstation
 Managed application files in Git
