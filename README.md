@@ -4,11 +4,15 @@
 
 This project demonstrates a complete CI/CD pipeline for deploying a React-based static application using:
 
-GitHub (Source Control)
-AWS CodeBuild (CI - Build stage)
-Amazon ECR (Docker Image Registry)
-Amazon EKS (Kubernetes Cluster)
-AWS LoadBalancer (Application Exposure)
+- GitHub (Source Control)
+
+- AWS CodeBuild (CI - Build stage)
+
+- Amazon ECR (Docker Image Registry)
+
+- Amazon EKS (Kubernetes Cluster)
+
+- AWS LoadBalancer (Application Exposure)
 
 The application is containerized using Docker and deployed on Kubernetes running on AWS EKS.
 
