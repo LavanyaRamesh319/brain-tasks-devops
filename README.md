@@ -12,6 +12,7 @@ AWS LoadBalancer (Application Exposure)
 The application is containerized using Docker and deployed on Kubernetes running on AWS EKS.
 
 **Architecture Flow**
+
 GitHub
 
    ↓
