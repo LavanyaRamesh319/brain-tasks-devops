@@ -114,6 +114,16 @@ AWS LoadBalancer (Public Access)
 
 ---
 
+- Application deployed kubernetes Loadbalancer ARN: a59a4a898e9984d05a2ba6db77d2f6e4-2128056157.ap-south-2.elb.amazonaws.com
+
+## Application Deployment Details
+
+- Load Balancer Name: a59a4a898e9984d05a2ba6db77d2f6e4
+
+- Load Balancer DNS: a59a4a898e9984d05a2ba6db77d2f6e4-2128056157.ap-south-2.elb.amazonaws.com
+
+- Application URL: http://a59a4a898e9984d05a2ba6db77d2f6e4-2128056157.ap-south-2.elb.amazonaws.co
+
 ## 📌 9. CI/CD Pipeline Flow
 
 GitHub → AWS CodeBuild → Amazon ECR → Amazon EKS → LoadBalancer → Browser
