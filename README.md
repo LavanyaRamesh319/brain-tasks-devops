@@ -182,3 +182,55 @@ GitHub → AWS CodeBuild → Amazon ECR → Amazon EKS → LoadBalancer → Brow
 
 <img width="1822" height="932" alt="d26" src="https://github.com/user-attachments/assets/815537dc-ade0-40f1-a282-847c6ea8836b" />
 Pipeline Test Mon Jun 29 11:50:21 UTC 2026
+
+Code Build Logs
+
+<img width="1446" height="636" alt="bh1" src="https://github.com/user-attachments/assets/c218e371-4a8e-45c2-b450-03b4baa1f958" />
+
+<img width="1452" height="641" alt="bh2" src="https://github.com/user-attachments/assets/49d0a27a-5a3c-4957-adbb-fd437fec2171" />
+
+<img width="1527" height="791" alt="bh3" src="https://github.com/user-attachments/assets/b85d33f3-420d-46bb-919b-b8573d8e2bbe" />
+
+<img width="1552" height="802" alt="bh4" src="https://github.com/user-attachments/assets/cfff8799-519d-4446-9973-5ec76735758f" />
+
+<img width="1532" height="797" alt="bh5" src="https://github.com/user-attachments/assets/9ab4d7a7-09a7-4bab-b31e-20b08086c4d7" />
+
+<img width="1557" height="751" alt="bh6" src="https://github.com/user-attachments/assets/12853b8c-8e4b-46f3-9ab6-11da0dffad49" />
+
+
+Code Pipeline Screenshots
+
+<img width="1872" height="625" alt="bh7" src="https://github.com/user-attachments/assets/7786f415-71ae-4afe-b808-269a9fe9f2a3" />
+
+Committed the pIpeline
+
+<img width="970" height="906" alt="bh8" src="https://github.com/user-attachments/assets/4a273889-e5d1-466a-9142-88a7e894c005" />
+
+<img width="1487" height="772" alt="bh9" src="https://github.com/user-attachments/assets/45b179f6-41e0-4e46-8712-8dd763fa7641" />
+
+<img width="1902" height="642" alt="bh10" src="https://github.com/user-attachments/assets/96f6f612-6bf3-43f9-b560-760975d9e1a6" />
+
+
+Cloud Watch Logs 
+
+<img width="1910" height="810" alt="bh12" src="https://github.com/user-attachments/assets/139ec8a9-0051-453f-bb29-d4e5e9169b92" />
+
+
+<img width="1912" height="816" alt="bh13" src="https://github.com/user-attachments/assets/5a8d7bb1-6eb8-4320-856b-a875c65855b0" />
+
+
+<img width="1911" height="802" alt="bh14" src="https://github.com/user-attachments/assets/2bc6bd05-18a7-41c3-9aa7-5fff0307b8e8" />
+
+
+<img width="1900" height="802" alt="bh15" src="https://github.com/user-attachments/assets/efd16626-eacb-45a1-8c79-4aec02e26295" />
+
+
+<img width="812" height="696" alt="bh16" src="https://github.com/user-attachments/assets/8626e989-6257-47c9-b9ac-1a3415458674" />
+
+
+<img width="1907" height="782" alt="bh17" src="https://github.com/user-attachments/assets/98fce001-3d8a-4fe6-a036-d38baed1bd6e" />
+
+
+<img width="1917" height="810" alt="bh18" src="https://github.com/user-attachments/assets/e2294292-fb11-455c-ad01-e9e26ceccb30" />
+
+
